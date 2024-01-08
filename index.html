@@ -104,6 +104,8 @@
       document.addEventListener("click", (e) => {
         if (!selectBoxWrapperEl.contains(e.target)) {
           dropDownEl.classList.remove("active");
+          selectBoxWrapperEl.classList.remove("active");
+
         }
       });
     </script>
